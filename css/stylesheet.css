@@ -37,7 +37,8 @@ footer {
   text-align: center;
   background-color: #ce3d39;
   color: #FFFEFB;
-  padding: 10px;
+  padding top: 5px;
+  padding-bottom: 5px;
   height: 125px;
   width: 100%;
   position: absolute;
