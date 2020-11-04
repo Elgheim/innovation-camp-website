@@ -37,7 +37,7 @@ footer {
   text-align: center;
   background-color: #ce3d39;
   color: #FFFEFB;
-  padding top: 5px;
+  padding-top: 5px;
   padding-bottom: 5px;
   height: 125px;
   width: 100%;
@@ -118,8 +118,17 @@ li {
   margin-bottom: 2%;
 }
 
+
 .radElement {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 25%;
+}
+.radElementOverskrift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 25%;
 }
