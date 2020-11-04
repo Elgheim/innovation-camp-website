@@ -45,6 +45,10 @@ footer {
   bottom: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 .logo {
   max-height: 70px;
 }
@@ -96,5 +100,25 @@ footer {
 }
 
 .listen {
+  padding: 3%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rad{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid lightgrey;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.radElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
