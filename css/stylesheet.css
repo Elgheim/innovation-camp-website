@@ -17,19 +17,22 @@ nav {
   align-items: center;
   width: 100%;
 }
-
+.logo{
+  height: 50px;
+  width: auto;
+}
 nav a {
   display: flex;
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  font-size: 3vh;
+  font-size: 2vh;
   color: #FFFEFB;
-  padding: 1px;
+  padding: 2px;
 }
 
 nav a:hover{
-  background: lightgrey;
+  background: rgb(255, 253, 253);
   color: #ce3d39;
   transition: all 0.3s ease 0s;
   
