@@ -91,13 +91,17 @@ li {
   width: 20%;;
   align-content: center;
   align-items: center;
-  margin: 10px;
+  margin:10px;
   padding: 5px;
   box-shadow: 3px 3px 5px lightgrey;
 }
 
 .storiesImage {
   max-width: 100%;
+}
+.storiesHeader{
+  font-weight: 600;
+
 }
 
 .listen {
