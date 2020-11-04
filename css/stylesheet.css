@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 125px;
+    
+    font-family: helvetica;
+    background-color: #FFFEFB;
+}
+
+nav {
+  display: flex;
+  background-color: #D73F3D;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  color: #FFFEFB;
+}
+
+nav a:hover{
+  background: lightgrey;
+  color: #D73F3D;
+}
+
+footer {
+  text-align: center;
+  background-color: #D73F3D;
+  color: #FFFEFB;
+  padding: 10px;
+  height: 125px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.logo {
+  max-height: 70px;
+}
+
+.active {
+  border-bottom: 3px solid #FFFEFB;
+}
+
+.heroDisplay {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.imageHero {
+  max-width: 100%;
+}
+
+.storiesOverview{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15%;
+}
+.tittel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 3vh;
+  margin-top: 5%;
+
+}
+
+.stories{
+  display: flex;
+  flex-direction: column;
+  width: 20%;;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 5px lightgrey;
+}
+
+.storiesImage {
+  max-width: 100%;
+}
