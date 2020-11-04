@@ -12,7 +12,7 @@ body {
 
 nav {
   display: flex;
-  background-color: #D73F3D;
+  background-color: #ce3d39;
   height: 100px;
   justify-content: space-around;
   align-items: center;
@@ -30,12 +30,13 @@ nav a {
 
 nav a:hover{
   background: lightgrey;
-  color: #D73F3D;
+  color: #ce3d39;
+  transition: all 0.3s ease 0s;
 }
 
 footer {
   text-align: center;
-  background-color: #D73F3D;
+  background-color: #ce3d39;
   color: #FFFEFB;
   padding: 10px;
   height: 125px;
