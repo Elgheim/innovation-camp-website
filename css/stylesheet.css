@@ -99,8 +99,9 @@ li {
   align-content: center;
   align-items: center;
   margin:10px;
-  padding: 5px;
+  padding: 20px;
   box-shadow: 3px 3px 5px lightgrey;
+  background-color: #F1F0EC;
 }
 
 .storiesImage {
