@@ -67,10 +67,13 @@ li {
   display: flex;
   width: 100%;
   height: auto;
+  align-items: flex-start;
 }
 
 .imageHero {
+  
   max-width: 100%;
+  max-height: 100%;
 }
 
 .storiesOverview{
@@ -174,6 +177,7 @@ li {
   width: 70%;
   background-color: #F1F0EC;
   margin: 1%;
+  align-items: flex-start;
 }
 
 .development-image {
