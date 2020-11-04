@@ -25,12 +25,14 @@ nav a {
   align-items: center;
   font-size: 3vh;
   color: #FFFEFB;
+  padding: 1px;
 }
 
 nav a:hover{
   background: lightgrey;
   color: #ce3d39;
   transition: all 0.3s ease 0s;
+  
 }
 
 footer {
