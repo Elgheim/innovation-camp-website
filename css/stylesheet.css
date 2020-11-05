@@ -133,6 +133,7 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 20%;
+  
   align-content: center;
   align-items: center;
   margin:10px;
@@ -290,3 +291,4 @@ cursor: pointer;
     margin-top: 2%;
     padding: 1%;
   }
+}
