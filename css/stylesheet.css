@@ -76,7 +76,39 @@ footer {
   max-width: 100%;
   max-height: 100%;
 }
-
+.promo-text{
+  color: rgb(255, 255, 255);
+  position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+font-weight: bolder;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-decoration: none;
+background-color: #ce3d39;
+text-transform: uppercase;
+cursor: default;
+}
+@media only screen and (max-width: 1222px) {
+  [class="promo-text"] {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1222px) {
+  [class="promo-text"] {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  [class="promo-text"] {
+    font-size: 20px;
+    top: 10%;
+  }
+}
 /* Stories hovedsiden */
 
 /* Hoved container */
