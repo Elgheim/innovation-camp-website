@@ -8,7 +8,7 @@ body {
     font-family: helvetica;
     background-color: #FFFEFB;
 }
-
+/* NavBar Start */
 nav {
   display: flex;
   background-color: #ce3d39;
@@ -17,10 +17,14 @@ nav {
   align-items: center;
   width: 100%;
 }
+
+/* Logo i NavBar */
 .logo{
   height: 50px;
   width: auto;
 }
+
+/* Styrer de 3 overskriftene i NavBar */
 nav a {
   display: flex;
   text-decoration: none;
@@ -31,13 +35,20 @@ nav a {
   padding: 2px;
 }
 
+/* HoverEffekt i NavBar */
 nav a:hover{
   background: rgb(255, 253, 253);
   color: #ce3d39;
   transition: all 0.3s ease 0s;
-
 }
 
+/* Valgte pagen i NavBar  */
+.active {
+  border-bottom: 3px solid #FFFEFB;
+}
+/* NavBar slutt */
+
+/* Footer */
 footer {
   text-align: center;
   background-color: #ce3d39;
@@ -51,18 +62,7 @@ footer {
   bottom: 0;
 }
 
-li {
-  list-style-type: none;
-}
-
-.logo {
-  max-height: 70px;
-}
-
-.active {
-  border-bottom: 3px solid #FFFEFB;
-}
-
+/* Herodisplay hovedsiden */
 .heroDisplay {
   display: flex;
   width: 100%;
@@ -70,12 +70,16 @@ li {
   align-items: flex-start;
 }
 
+/* Størrelsen på bildet i Herodisplay */
+/* Mulig endre til css bakgrunnsbilde for å ha text over */
 .imageHero {
-  
   max-width: 100%;
   max-height: 100%;
 }
 
+/* Stories hovedsiden */
+
+/* Hoved container */
 .storiesOverview{
   display: flex;
   flex-direction: row;
@@ -85,6 +89,8 @@ li {
   align-content: center;
   margin-bottom: 15%;
 }
+
+/* Tittelen over stories */
 .tittel {
   display: flex;
   justify-content: center;
@@ -95,6 +101,7 @@ li {
   margin-top: 5%;
 }
 
+/* Stories boksen */
 .stories{
   display: flex;
   flex-direction: column;
@@ -103,19 +110,23 @@ li {
   align-items: center;
   margin:10px;
   padding: 20px;
+  border-radius: 4px;
   box-shadow: 3px 3px 5px lightgrey;
   background-color: #F1F0EC;
 }
 
+/* Bildet i stories */
 .storiesImage {
   max-width: 100%;
 }
+/* Tittel i stories */
 .storiesHeader{
   font-weight: 600;
 }
 
+/* Statistics siden */
+/* Overordnet boks - listen */
 .listen {
-  padding: 3%;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 5%;
@@ -128,6 +139,7 @@ li {
   border-radius: 7px;
 }
 
+/* Hver rad i listen */
 .rad{
   display: flex;
   align-items: center;
@@ -138,28 +150,56 @@ li {
   margin-bottom: 2%;
 }
 
+/* Hvert element i listen */
 .radElement {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 25%;
 }
+
+/* Overskriftene til listen */
 .radElementOverskrift {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
   font-weight: bold;
   width: 25%;
   margin-top: 2%;
 }
 
+/* Tittel og beskrivelse container over listen */
 .listebeskrivelse {
   display: flex;
+  flex-direction: column;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  width: 60%;
+  background-color: #FFFEFB;
+  background-image: url("../images/schoolBackgroundSmall.png")
 }
 
+/* Bakgrunnshistorie for informasjonen som blir vist i listen */
+.listeBakgrunn {
+  max-width: 60%;
+  background-color: #FFFEFB;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+
+/* Tittelen over hele listen */
+.tittel-liste {
+  max-width: 60%;
+  background-color: #FFFEFB;
+  border-radius: 5px;
+  padding: 0.5%;
+  font-size: 3vh;
+  margin-top: 5%;
+}
+/* Liste slutt */
+
+/* Development siden */
+/* Overordnet boks for elementene i development siden */
 .development-overview {
   display: flex;
   flex-direction: column;
@@ -168,8 +208,9 @@ li {
   align-items: center;
   margin-top: 5%;
   margin-bottom: 15%;
-
 }
+
+/* Boks for hver av development tiltakene */
 .development-storie {
   display: flex;
   flex-direction: row;
@@ -180,10 +221,13 @@ li {
   align-items: flex-start;
 }
 
+/* Bilde til hvert development tiltak */
 .development-image {
   width: 30%;
   height: auto;
 }
+
+/* Boksen for tittel og tekst i hvert tiltak */
 .development-story {
   display: flex;
   flex-direction: column;
@@ -192,11 +236,15 @@ li {
   width: 70%;
   height: auto;
 }
+
+/* Tittel - tiltak */
 .development-tittel {
   display: flex;
   justify-content: center;
   height: 22%;
 }
+
+/* Beskrivelse - tiltak */
 .development-beskrivelse {
   display: flex;
   justify-content: flex-start;
@@ -204,6 +252,7 @@ li {
   margin-right: 1%;
 }
 
+/* For at wrappingen av "stories" skal bli enda finere i index */
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
   [class="stories"] {
@@ -214,4 +263,3 @@ li {
     margin-top: 2%;
     padding: 1%;
   }
-  
