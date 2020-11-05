@@ -91,7 +91,12 @@ padding-bottom: 5px;
 text-decoration: none;
 background-color: #ce3d39;
 text-transform: uppercase;
-cursor: default;
+cursor: pointer;
+}
+.promo-text:hover{
+  background: rgb(255, 253, 253);
+  color: #ce3d39;
+  transition: all 0.3s ease 0s;
 }
 @media only screen and (max-width: 800px) {
   [class="promo-text"] {
